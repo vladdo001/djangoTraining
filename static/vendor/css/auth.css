@@ -7143,6 +7143,7 @@ button.bg-dark:focus {
 }
 
 .flex-column {
+    display: flex !important;
     flex-direction: column !important;
 }
 
