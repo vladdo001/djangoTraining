@@ -2168,8 +2168,10 @@ textarea.form-control {
     height: auto;
 }
 
-.form-group {
+.form-group-user-data {
     margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .form-text {
@@ -7146,6 +7148,7 @@ button.bg-dark:focus {
     display: flex !important;
     flex-direction: column !important;
 }
+
 
 .flex-row-reverse {
     flex-direction: row-reverse !important;

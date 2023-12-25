@@ -6,7 +6,7 @@ from products.models import ProductCategory, Product
 
 def index(request):
     context = {
-        'title': 'Test Title',
+        'title': 'Store - Главная',
         'is_promotion': True,
         }
     return render(request, 'products/index.html', context)
